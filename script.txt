@@ -1,0 +1,1 @@
+document.querySelectorAll(".video-item-icon").forEach(e => document.body.append(e.onclick))
