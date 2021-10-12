@@ -4,10 +4,11 @@
 
 
 int main(){
-    //struc DIR
-    char* path = "/mnt/c/Users/rober/Documents"; // desde virtual box seria: 
 
-    DIR* dir = opendir(path); // . = path, .= directorio actual 
+    //struc DIR
+    char* path = "."; // desde virtual box seria: 
+
+    DIR* dir = opendir("."); // . = path, .= directorio actual 
 
     if(dir == NULL){
         return 1;
@@ -15,10 +16,13 @@ int main(){
 
     // file or folder
     struct dirent* entity;
+
     entity = readdir(dir); 
+
     printf("DIRECTORIO  ACTAUL🤑");
+
     while(entity != NULL){
-        printf("%s\n",entity->d_name);
+        printf("%s\n", entity->d_name);
         entity = readdir(dir);
     }
 
