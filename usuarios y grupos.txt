@@ -1,0 +1,67 @@
+// mostrar el usuario actual con el que estamos trabajando
+	- whoami
+
+
+// agregar usuario con clave directorio y otros detales	
+sudo adduser thor 	// sudo "super user do"
+
+
+// agregar usuario solo con nombre
+sudo useradd nombre
+
+// mostrar usuarios del sistema
+
+sudo cat /etc/passwd
+
+// resultado
+thor:x:1001:1001:thor,,,:/home/thor:/bin/bash
+nombre:password:usuario_id:grupo_id:nombre:,,:directorio_home:default terminal       
+
+
+
+// establecer o cambiar clave de usuario
+
+sudo passwd ironman
+
+// cambiar shell de usuario
+
+sudo usermod ironman --shell /bin/bash
+
+// cambiar nombre de usuario
+
+sudo usermod -l nuevo_nombre antiguo_nombre
+sudo usermod -l tonystark ironman
+
+// crear usuario con directorio home
+sudo useradd spiderman -m 
+
+// mostrar contraseñas de usuario (Encryptadas) 
+
+sudo cat /etc/shadow
+
+
+// cambiar de usuario
+
+su == swicth user
+// comando
+su - nombre_usuario
+
+si no se le da un nombre de usuario se cambia a el usuario root
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

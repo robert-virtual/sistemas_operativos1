@@ -1,11 +1,28 @@
+
+
+
 https://drive.google.com/file/d/1JjX7Cjb-RDdoMAzxNqVcVXGHDW1XB88k/preview
+
+
+open create 
 https://drive.google.com/file/d/1MKAdo4Y7GPQCrtFYO7q5bl0wJLsqNTsl/preview
+
+
+
+
+teoria operaciones con procesos(fork, exit, wait, exec)
 https://drive.google.com/file/d/11WgfRIiQ3DSsFweNfhip90vTfNxy6tdD/preview
+
+
+
+* servicios del sistema operativo, llamadas al sistema
 https://drive.google.com/file/d/1LCkEBesIBTWijoapDt6oLZlMP9pVqQBh/preview
+
+* practica windows shell
 https://drive.google.com/file/d/1Hti5NDXGwOsA719rglByGrbloeekoSXL/preview
 
-structura de sistemas operaativos
-* https://drive.google.com/file/d/1m0NVFGQGdeixJeGKXeCPhdnK1j_ilETH/preview
+* estructura de sistemas operaativos
+https://drive.google.com/file/d/1m0NVFGQGdeixJeGKXeCPhdnK1j_ilETH/preview
 
 https://drive.google.com/file/d/1fOLd_LZTlio3GVG5UbnmsBt0ZtdPByWB/preview
 https://drive.google.com/file/d/1oP1Q9qmwD7y4RwuicjwSJp0INZdtl69R/preview

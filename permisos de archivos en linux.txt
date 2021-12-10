@@ -1,0 +1,83 @@
+
+agregar y remover permiso a  todos(usuario,grupo y otros) 
+  
+	- chmod +r filename // permiso de lectura
+	- chmod +w filename // permiso de escritura 
+	- chmod +x filename // permiso de ejecucion 
+	
+remover permisos   
+	- chmod -r filename // permisos de lectura 
+	- chmod -w filename // permisos de escritura 
+	- chmod -x filename // permisos de ejecucion
+	 
+------------usuario------------- remover / agregar pemisos a usuario
+remover permisos de lectura a usuario 
+	- chmod u-r filename // u == usuario, r == read
+	 
+agregar permisos de lectura a usuario 
+	- chmod u+r filename
+	 
+---------grupo---------------- remover / agregar pemisos a usuario
+
+remover permisos de lectura grupo 
+	- chmod g-r filename 
+	
+agregar permisos de lectura grupo 
+	- chmod g+r filename 
+
+---------OTROS o todos---------------- remover / agregar pemisos a usuario
+agregar permisos de lectura grupo 
+	- chmod o+r filename 
+
+remover permisos de lectura grupo 
+	- chmod o-r filename 
+	
+
+	
+---usuario----agregar multiples permisos de una sola vez
+--- agregar
+chmod u+rw //  permiso de  lectura y escritura
+chmod u+rwx //  permiso de  lectura y escritura
+
+--- remover
+chmod u-rw //  permiso de  lectura y escritura
+chmod u-rwx //  permiso de  lectura y escritura
+
+
+-------permiso representados como numeros--------
+r = 4 // r == read // lectura
+w = 2 // w == write // escritura
+x = 1 // x == execute // ejecucion
+r,w,x = 4+2+1 = 7 == todos los permisos
+r,w   = 4+2   = 6 == lectura y escritura
+r,x   = 4+1   = 5 == lectura y ejecucion
+w,x   = 2+1   = 3 == escritura y ejecucion
+
+-----------usando valores numericos--------------
+chmod ugo // u = usuario, g= grupo, o = otros
+// en este ejemplo "u","g" y "o" representan los parametros q espera el comando chmod estos deben ser numeros que representen un permiso o la suma de varios permiso
+chmod 770 // usuario = todos los permisos, grupo = todos los permiso, otros ningun permiso
+  
+
+
+-------cambiar propietario de un archivo----------
+
+chown // change ownership
+// es neceaario sudo para cambiar la propiedad
+
+sudo chown batman -R batman Downloads/
+ 
+// cambiar grupo propietario de un archivo o diretorio
+
+sudo chown batman -R batman:nombre_de_grupo Downloads/
+
+// forma corta de asignar un nuevo propietario y el grupo al que pertenece dicho propietario
+ 
+sudo chown batman -R batman: Downloads/
+
+// este comando cambia la propiedad del directorio Downloads a el usuario "batman" 
+// y asigna como grupo propietario de Downloads a el grupo llamado "batman" 
+ 
+ 
+
+

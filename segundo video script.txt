@@ -1,0 +1,85 @@
+
+// grupo a
+	- wilmer
+	- keren  
+
+// grupo b
+	- david
+	- Rober
+
+
+
+------------------------------ roberto
+// crear usuarios
+
+sudo adduser keren
+sudo adduser david
+sudo adduser wilmer
+
+// crear grupo
+sudo groupadd grupoa
+sudo groupadd grupob
+
+------------------------------ roberto
+------------------------------ david
+
+// agregar usuario a un grupo
+sudo adduser nombre_usuario nombre_grupo
+
+sudo adduser wilmer grupoa
+sudo adduser keren grupoa //  en amy vamos a crear los archivos
+
+sudo adduser david grupob
+sudo adduser rober grupob
+------------------------------ david
+------------------------------ keren
+
+// pasar al directorio de un usuario // o cambiar usuario
+
+su keren  //  
+su wilmer // 
+su david  // 
+cd // ir a el directorio de usuario // /home/keren
+pwd // ver la hubicacion donde estamos
+
+touch archivo_de_keren.txt // pertenece a usuario amy // pertenece a el grupo amy
+
+------------------------------ keren
+
+---------------------------------------------------------------- wilmer
+// cambiar grupo al que pertenece un archivo
+----- chgrp nuevo_grupo nombre_archivo  // change group 
+
+ls -l
+chgrp grupoa archivo_de_keren.txt // change group // accedible
+ 
+// agregar contenido a un archivo existente
+
+// wilmer // otra terminal 
+
+echo "wilmer agrego este contenido" > archivo_de_keren.txt 
+---------------------------------------------------------- wilmer
+
+// david // otra terminal  // grupob
+
+cd /home/keren
+echo "david agrego este contenido" >> archivo_de_keren.txt 
+// error
+
+// terminal de keren
+ 
+-----------------chmod ??? nombre_archivo
+chmod 666 archivo_de_keren.txt
+
+
+
+// david // otra terminal  
+
+echo "david agrego este contenido" >> archivo_de_amy.txt 
+
+
+
+
+
+
+

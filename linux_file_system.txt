@@ -1,0 +1,127 @@
+
+
+-------------------1 michael barahona
+
+cd directorio
+	- cambiar directorio
+	- EJEMPLOS:
+		cd .. = ir atras en los directorios
+		- cd = / "telleva a la raiz del sistema de archivos"
+		- cd nombre_dir/
+ls
+	- listar archivos
+	- ls directorio/
+	- ls
+
+
+mkdir 
+	-crear un directorio
+	- mkdir nombre_directorio
+		
+-------------------1
+	
+-------------------2 Dorian zelaya
+
+mkdir acumulativo examen practica
+	- crear multiples directorios
+	 
+mkdir -p crear sub directorios
+	- (--parents)
+              no error if existing, 
+	- mkdir -p carpeta_existente/nueva_carpeta
+	
+-------------------2
+
+-------------------3 Amy Garrido
+
+rmdir
+	- remueve un directorio
+	- si el directorio tiene archivos devuelve un error
+	- rmdir directrio
+	
+touch nombre_archiovo.extension
+	- crear archivo
+	- archivo vacio
+	
+touch archivo1 arcchivo2 archivo3 
+	- crear multiples archivos
+-------------------3
+
+	
+
+
+
+-------------------4 david quezada
+
+tree directorio
+	- mostrar sub directorios
+	en una jerarquia de arbol
+	- sudo apt install tree
+
+              make parent directories as needed
+
+cat > ejercicio1.txt
+	- crear archivo con contenido
+	- ctrl + d = cerrar archivo
+
+cat ejercicio1.txt
+	- ver contenido del archivo
+-------------------4
+
+
+	
+-------------------5 Oscar Martinez
+
+
+mv nombrearchivo nuevonombre
+	-renombrar archivo
+
+
+mv nombredirectorio nuevonombre
+	-Renombrar directoirio
+-------------------5
+
+-------------------6 Keren Castellanos
+
+mv archivo.txt nueva_ubicacion
+	- ejemplo: 
+		mv archivo.txt /home/robert/
+
+	- mover archivo 
+
+
+
+rm archivo.txt
+	- eliminar archivos
+
+-------------------6
+
+-------------------7 Roberto castillo
+
+rm -r directorio
+	- eliminar directorios con o sin archivos
+
+cp archivo  ubicacion_donde_se_pegara
+	- copiar archivo 
+
+cp -r directorio  ubicacion_donde_se_pegara
+	- copiar directorio 
+-------------------7
+michael barahona
+Dorian zelaya
+Amy Garrido
+david quezada
+Oscar Martinez
+Keren Castellanos
+Roberto castillo
+Wilmer Gomez Escobar 
+
+
+
+
+
+
+ 
+	
+	
+	

@@ -1,0 +1,76 @@
+
+michael barahona
+Dorian zelaya
+Amy Garrido
+david quezada
+Oscar Martinez
+Keren Castellanos
+Roberto castillo
+Wilmer Gomez Escobar 
+
+-----------------1-Dorian
+
+// crear usuario
+
+sudo adduser thor 	// sudo "super user do"
+
+// mostrar usuarios del sistema
+
+cat /etc/passwd
+
+// eliminar usuario
+
+sudo userdel nombre_usuario
+
+// borrar usuario junto con  directorio de usuario y  la cola de correo de ese usuario de una vez
+
+sudo userdel -r nombre_usuario
+
+
+
+-----------------1
+
+
+
+-----------------2 Oscar
+// crear grupos
+
+sudo addgroup nombre_grupo
+
+
+
+// ver grupos del sistema
+
+sudo cat /etc/group
+
+-----------------2
+
+-----------------3 michael
+// eliminar grupo
+
+groupdel nombre_grupo
+
+// agregar usuario a un grupo
+
+sudo usermod -a -G nombre_grupo nombre_usuario
+
+// ver miembros de un grupo
+
+cat /etc/group
+-----------------3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
